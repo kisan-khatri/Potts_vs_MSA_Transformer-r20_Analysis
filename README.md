@@ -1,6 +1,7 @@
 # Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts Model vs MSA Transformer
 
 DOI: https://doi.org/10.48550/arXiv.2503.00289
+
 This repository contains the code and data used in our study on double mutant cycle (cooperativity) analysis in kinase proteins, as presented in the manuscript. It includes the code to reproduce the histogram shown in the manuscript and to identify the most cooperative double mutant pairs reported. The repository is shared in response to reviewer requests to promote transparency and reproducibility. 
 
 We present a comparative analysis of the Potts model and the MSA Transformer (MSA-T) using r20 metrics for two protein families: RR domain and kinase. For detailed methodology and results, please refer to the associated article.
