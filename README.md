@@ -13,10 +13,10 @@ We present a comparative analysis of the Potts model, MSA Transformer (MSA-T), a
 # How to cite this code
 If you think this has contributed to the work you are doing, consider citing it in the list of your references. Here is the recommended citation:
 
-Khatri, K., Haldane, A., & Levy, R. M. (2025). kisan-khatri/Potts-Model-Cooperativity: v1.0.0 (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15856333
+Khatri, K., Levy, R. M., & Haldane, A. (2025). Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs MSA Transformer Machine Learning Models (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15876209
 
-Zenodo. https://doi.org/10.5281/zenodo.15856333
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856333.svg)](https://doi.org/10.5281/zenodo.15856333)
+Zenodo. https://doi.org/10.5281/zenodo.15876209
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15876209.svg)](https://doi.org/10.5281/zenodo.15876209)
 
 # Step 1: Software Used
 We used the Mi3-GPU software package to generate the synthetic sequences from the Potts model in our study, which is publicly accessible via its GitHub repository: https://github.com/ahaldane/Mi3-GPU. To generate the synthetic sequences using MSA-T, we used the publicly available package via GitHub repository: https://github.com/Bitbol-Lab/Iterative_masking, which is also available at: https://doi.org/10.5281/zenodo.7684052.
