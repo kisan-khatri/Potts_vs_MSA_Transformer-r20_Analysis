@@ -2,7 +2,7 @@
 
 DOI: https://doi.org/10.48550/arXiv.2503.00289
 
-This repository contains the code and data used in our study for the r20 analysis of three machine learning models: the Potts model, the MSA Transformer (MSA-T), and the Independent model. It includes all scripts and necessary files to reproduce the r20 and cc-r20 plots presented in the main manuscript, along with two additional plots shown in the Supplemental Material (SM). The repository is shared in response to reviewer requests to promote transparency and reproducibility.
+This repository contains the code and data used in our study for the r20 analysis of three machine learning models: the Potts model, the MSA Transformer (MSA-T), and the Independent model in two protein families. It includes all scripts and necessary files to reproduce the r20 and cc-r20 plots presented in the main manuscript, along with two additional plots shown in the Supplemental Material (SM). The repository is shared in response to reviewer requests to promote transparency and reproducibility.
 
 We present a comparative analysis of the Potts model, MSA Transformer (MSA-T), and the Independent model using r20 metrics for two protein families: the RR domain and kinase. For detailed methodology and results, please refer to the associated article.
 
