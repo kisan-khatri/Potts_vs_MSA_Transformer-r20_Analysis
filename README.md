@@ -39,7 +39,7 @@ This analysis is performed in 6K filtered MSAs. See details in Figure_SM4/readme
 
 # Example Files
 
-For the example files, please refer folde Example to simpy run script and produce r20_plot.
+For the example files, please refer folder Example to simply run the script and produce r20_plot.
 
 Thank you for the attention.
 
