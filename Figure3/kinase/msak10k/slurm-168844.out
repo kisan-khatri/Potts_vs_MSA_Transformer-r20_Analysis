@@ -1,0 +1,52 @@
+===================================================
+Begin TASK Prologue Thu Feb 20 11:21:05 PM EST 2025
+===================================================
+Job ID:           168844
+Username:         tuq28411
+Group:            cbcb
+Job Name:         run_hom_new.sh
+Resources List:   nodes=1:ppn=1:ntasks=
+Queue:            normal
+Account:          default
+Nodes:      c049
+===================================================
+End TASK Prologue Thu Feb 20 11:21:05 PM EST 2025
+===================================================
+usage: HOM_r20.py [-h] [--weights WEIGHTS] [--npos NPOS] [--topmode TOPMODE]
+                  name reps msa
+HOM_r20.py: error: argument reps: invalid int value: 'kinase'
+usage: HOM_r20.py [-h] [--weights WEIGHTS]
+                  [--score {pearson,pearsonlog,spearman,pcttvd}]
+                  db_name out_name msa
+HOM_r20.py: error: unrecognized arguments: output/msas/msa_mapped
+usage: HOM_r20.py [-h] [--weights WEIGHTS]
+                  [--score {pearson,pearsonlog,spearman,pcttvd}]
+                  db_name out_name msa
+HOM_r20.py: error: unrecognized arguments: ../pottsk10k/gen10k
+usage: HOM_r20.py [-h] [--weights WEIGHTS]
+                  [--score {pearson,pearsonlog,spearman,pcttvd}]
+                  db_name out_name msa
+HOM_r20.py: error: unrecognized arguments: ../pottsk10k/nat_filt_0.5_10K_train
+Traceback (most recent call last):
+  File "/home/tuq28411/msa/Bitbol-Lab-Iterative_masking-d0ed065/Iterative_masking/RR_test_3000/RR_test/kinase/msak10k/./HOM_r20/HOM_r20.py", line 551, in <module>
+    main()
+  File "/home/tuq28411/msa/Bitbol-Lab-Iterative_masking-d0ed065/Iterative_masking/RR_test_3000/RR_test/kinase/msak10k/./HOM_r20/HOM_r20.py", line 547, in main
+    funcs[known_args.action](remaining_args)
+  File "/home/tuq28411/msa/Bitbol-Lab-Iterative_masking-d0ed065/Iterative_masking/RR_test_3000/RR_test/kinase/msak10k/./HOM_r20/HOM_r20.py", line 383, in count_msas
+    positionsets = read_db(db_name)
+  File "/home/tuq28411/msa/Bitbol-Lab-Iterative_masking-d0ed065/Iterative_masking/RR_test_3000/RR_test/kinase/msak10k/./HOM_r20/HOM_r20.py", line 117, in read_db
+    with open('{}.db'.format(db_name), "rt") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'RR.db'
+===================================================
+Begin TASK Epilogue Thu Feb 20 11:21:07 PM EST 2025
+===================================================
+Job ID:           168844
+Username:         tuq28411
+Job Name:         run_hom_new.sh
+Resources List:   nodes=1:ppn=1:ntasks=
+Queue:            normal
+Account:          default
+Nodes:      c049
+===================================================
+End TASK Epilogue Thu Feb 20 11:21:07 PM EST 2025
+===================================================
