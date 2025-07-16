@@ -2,3 +2,6 @@ __pycache__/
 .cache
 .DS_Store
 
+/Figure3/kinase/msak10k/HOM_r20
+Figure5/pi_f_munf/HOM_r20/
+/Figure5/unfmsat_filmsa/HOM_r20
