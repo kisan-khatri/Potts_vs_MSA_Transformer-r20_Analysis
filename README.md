@@ -1,11 +1,10 @@
-# Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts Model vs MSA Transformer
+# Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs MSA Transformer Machine Learning Models
 
 DOI: https://doi.org/10.48550/arXiv.2503.00289
 
 
 
-
-This repository contains the code and data used in our study for the r20 analysis of three machine learning models: the Potts model, the MSA Transformer (MSA-T), and the Independent model. It includes all scripts and necessary files to reproduce the r20 and cc-r20 plots presented in the main manuscript, along with two additional plots shown in the Supplemental Material (SM). The repository is shared in response to reviewer requests to promote transparency and reproducibility.
+This repository contains the code, data, and necessary files used in our study for the r20 analysis of three machine learning models: the Potts model, the MSA Transformer (MSA-T), and the Independent model. It includes all scripts and necessary files to reproduce the r20 and cc-r20 plots presented in the main manuscript, along with two additional plots shown in the Supplemental Material (SM). The repository is shared in response to reviewer requests to promote transparency and reproducibility of our results.
 
 
 We present a comparative analysis of the Potts model, MSA Transformer (MSA-T), and the Independent model using r20 metrics for two protein families: the RR domain and kinase. For detailed methodology and results, please refer to the associated article.
@@ -22,7 +21,7 @@ Zenodo. https://doi.org/10.5281/zenodo.15876209
 We used the Mi3-GPU software package to generate the synthetic sequences from the Potts model in our study, which is publicly accessible via its GitHub repository: https://github.com/ahaldane/Mi3-GPU. To generate the synthetic sequences using MSA-T, we used the publicly available package via GitHub repository: https://github.com/Bitbol-Lab/Iterative_masking, which is also available at: https://doi.org/10.5281/zenodo.7684052.
 
 # Step 2: Detailed Description of the Further Steps
-For two proteins, RR Domain (PF00072) and Kinase (PF00069), we first constructed MSAs and used step 1 to generate the synthetic sequences from the Potts model and the MSA-T (Please see details in the methodology section of our manuscript). To calculate the r20 scores corresponding to the Higher Order Marginals (HOMs), and to reproduce the r20-plots as well as other supporting information reported in the manuscript and the Supplemental Material (SM), we then followed the following steps (For details please follow the manuscript, methodology section, and supplemental material):
+For two proteins, RR Domain (PF00072) and Kinase (PF00069), we first constructed MSAs (from Pfam database) and used step 1 to generate the synthetic sequences from the Potts model and the MSA-T (Please see details in the methodology section of our manuscript). To calculate the r20 scores corresponding to the Higher Order Marginals (HOMs), and to reproduce the r20-plots as well as other supporting information reported in the manuscript and the Supplemental Material (SM), we then followed the following steps (For details, please follow the manuscript, methodology section, and supplemental material):
 
 
 # Step 3: Figure 3: r20 Plot
