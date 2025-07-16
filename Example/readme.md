@@ -6,7 +6,7 @@ You need to run: sbatch run_hom.sh
             python r20_plot.py
 
 
-But, all necessary files are provided. So, when you install Mi3-GPU and all necessary packages (see details in the Mi3-GPU link I have provided) , and run these two commands, you will see r20 plot.
+But all necessary files are provided. So, when you install Mi3-GPU and all necessary packages (see details in the Mi3-GPU link I have provided) , and run these two commands, you will be able to make r20 plot.
 
 Thank you.
 
