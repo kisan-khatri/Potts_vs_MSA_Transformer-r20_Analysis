@@ -1,4 +1,5 @@
-#Using AlphaFold2 to Predict the Conformations of Side Chains in Folded Proteins
+
+# Step 1: Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs MSA Transformer Machine Learning Models
 
 DOI: https://doi.org/10.48550/arXiv.2503.00289
 
