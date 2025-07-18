@@ -7,6 +7,13 @@ This repository contains the code and data used in our study for the r20 analysi
 
 We present a comparative analysis of the Potts model, MSA Transformer (MSA-T), and an Independent model using r20 metrics for two protein families: the RR domain and kinase. For detailed methodology and results, please refer to the associated article.
 
+# How to cite this code
+If you think this has contributed to the work you are doing, consider citing it in the list of your references. Here is the recommended citation:
+
+Khatri, K., Levy, R. M., & Haldane, A. (2025). Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs MSA Transformer Machine Learning Models (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15876209
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15856333.svg)](https://doi.org/10.5281/zenodo.15856333)
+
 Please follow these steps to reproduce our results.
 
 # Step 1: Software Used
