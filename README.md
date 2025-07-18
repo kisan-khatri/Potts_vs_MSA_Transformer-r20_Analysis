@@ -45,7 +45,7 @@ This analysis is performed in 6K filtered MSAs. See details in Figure_SM4/readme
 
 For the example files, please refer to the 'Example' folder to simply run the script and produce the r20_plot.
 
-
+Note: For figure 4, the sequence files (MSA) with 6M sequences each for each models were very large, and I am unable to upload those large files here at the moment. So, I have directly provided the '.npy' files which were generated for respective models using run_hom.sh and run_hom_cc.sh. So, you can directly run the script 'r20_plot.py' contained inside Figure 4. If you need those MSA files, you can get those from Zenodo (link provided above).
 
 Contact: kisankhatri11@gmail.com
          kisan.khatri@temple.edu
