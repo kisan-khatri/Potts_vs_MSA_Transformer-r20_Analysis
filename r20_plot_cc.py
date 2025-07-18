@@ -1,0 +1,28 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+potts = np.load('r20_potts_cc.npy')
+potts1 = np.nanmean(potts, axis = 1)
+msa = np.load('r20_MSAT_cc.npy')
+msa1 = np.nanmean(msa, axis = 1)
+indep = np.load('r20_indep_cc.npy')
+indep1 = np.nanmean(indep, axis = 1)
+ref = np.load('r20_ref_cc.npy')
+ref1 = np.nanmean(ref, axis = 1)
+plt.figure(figsize=(4,4))
+plt.plot(range(2,7), potts1, '.--', label='Potts', color='tab:blue', zorder=100)
+plt.plot(range(2,7), msa1, '.-', label='MSA-T', color='tab:orange')
+plt.plot(range(2,7), indep1, '.-', label='Indep', color='tab:grey')
+plt.plot(range(2,7), ref1, '.-', label='Null Model', color='tab:green')
+plt.ylim(0,1.05)
+plt.ylabel('r20',fontsize = 13)
+plt.xlabel('Pattern Length', fontsize = 13)
+#plt.legend(loc='lower left', fontsize=13)
+#plt.ylabel('cc-r20', fontsize = 13)
+#plt.xlabel('Pattern Length', fontsize = 13)
+#plt.legend(loc='lower left', fontsize=12)
+plt.xticks(ticks=[2, 4, 6])
+plt.yticks(ticks=[0.0, 0.5, 1.0])
+plt.tight_layout(pad=1.2)
+
+plt.show()
