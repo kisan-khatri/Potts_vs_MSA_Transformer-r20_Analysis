@@ -15,7 +15,7 @@ Keep this in the current directory: HOM_r20.py
 #for this you first need to run the following script:
 sbatch run_hom.sh 
 
- It creates RR.db file for reference MSA. Then we compute r20 for all the generated MSAs against reference MSA. It creates following files:
+ It creates RR.db file for reference MSA along with 'npy' files for each model. There are MSAs (reference, training, and model-generated) from which we need to compute '.npy' files for each model. Then we use those '.npy' files to compute r20 for all the generated MSAs against the reference MSA. It creates the following files:
 r20_Potts.npy - for potts
 r20_MSAT.npy -  for MSA-T
 r20_indep.npy - for independent
