@@ -1,10 +1,10 @@
 
 # Step 1: Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs Multiple Sequence Alignment Transformer Machine Learning Models
 
-The article has been accepted for publication in the 'Physical Review Research' journal.
-DOI of the accepted article: https://doi.org/10.1103/g5cx-1vhj
+The article has been accepted for publication in the Physical Review Research (PRR).
+Accepted article DOI: https://doi.org/10.1103/g5cx-1vhj
 
-DOI of the preprint in the archive: https://doi.org/10.48550/arXiv.2503.00289
+Preprint DOI: https://doi.org/10.48550/arXiv.2503.00289
 
 This repository contains the code and data used in our study for the r20 analysis of three machine learning models: the Potts model, the MSA Transformer (MSA-T), and the Independent model. It includes all scripts and necessary files to reproduce the r20 and cc-r20 plots presented in the main manuscript, along with two additional plots shown in the Supplemental Material (SM). The repository is shared in response to reviewer requests to promote transparency and reproducibility.
 
