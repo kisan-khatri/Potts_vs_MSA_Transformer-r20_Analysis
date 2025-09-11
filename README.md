@@ -1,5 +1,5 @@
 
-# Step 1: Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs Multiple Sequence Alignment Transformer Machine Learning Models
+# Step 1: Phylogenetic Corrections and Higher-Order Sequence Statistics in Protein Families: The Potts vs MSA Transformer Machine Learning Models
 
 The article has been accepted for publication in the Physical Review Research (PRR).
 Accepted article DOI: https://doi.org/10.1103/g5cx-1vhj
